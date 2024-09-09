@@ -2,6 +2,8 @@
 
 Simple image with [uv](https://github.com/astral-sh/uv) package manager.
 
+Available at docker hub https://hub.docker.com/repository/docker/c1rno/python.
+
 ## Multistage example
 
 ```shell
