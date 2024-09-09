@@ -2,12 +2,12 @@
 
 Simple image with [uv](https://github.com/astral-sh/uv) package manager.
 
-Available at docker hub https://hub.docker.com/repository/docker/c1rno/python.
+Available at [docker-hub](https://hub.docker.com/repository/docker/c1rno/python).
 
 ## Multistage example
 
 ```shell
-FROM c1rno/python AS builder
+FROM c1rno/python:v1.0.0 AS builder
 
 COPY ./requirements.txt requirements.txt
 RUN uv pip install -r requirements.txt
