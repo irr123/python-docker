@@ -1,9 +1,10 @@
-IMAGE_NAME=c1rno/python:v1.0.0
+IMAGE=c1rno/python
+VERSION=latest
 
 .PHONY: build
 build:
 	docker buildx build \
 		--platform linux/arm/v7,linux/arm64/v8,linux/amd64 \
-		--tag ${IMAGE_NAME} \
-		--push \
+		--tag ${IMAGE}:${VERSION} \
+		--load \
 		.
