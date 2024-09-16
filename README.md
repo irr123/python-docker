@@ -4,6 +4,12 @@ Simple image with [uv](https://github.com/astral-sh/uv) package manager.
 
 Available at [docker-hub](https://hub.docker.com/repository/docker/c1rno/python).
 
+## How to
+
+```shell
+make && VERSION=v1.0.1 make
+```
+
 ## Multistage example
 
 ```shell
