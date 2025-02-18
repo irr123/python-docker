@@ -1,5 +1,9 @@
 # Python builder image
 
+Read it first: https://bogomolov.work/blog/posts/docker-uv/
+
+---
+
 Simple image with [uv](https://github.com/astral-sh/uv) package manager.
 
 Available at [docker-hub](https://hub.docker.com/repository/docker/c1rno/python).
@@ -10,6 +14,7 @@ Available at [docker-hub](https://hub.docker.com/repository/docker/c1rno/python)
 1. `BASE_IMAGE=python:3.13.1-slim-bookworm VERSION=v1.0.3 make build`
 1. `BASE_IMAGE=python:3.13.0-slim-bookworm VERSION=v1.0.2 make build`
 1. `BASE_IMAGE=python:3.12.7-slim-bookworm VERSION=v1.0.1 make build`
+1. `BASE_IMAGE=python:3.12.5-slim-bookworm VERSION=v1.0.0 make build`
 
 ## How to
 
